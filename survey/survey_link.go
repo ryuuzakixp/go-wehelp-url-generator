@@ -9,7 +9,7 @@ import (
 	"strings"
 )
 
-const BASE_URL = "https://app.wehelpsoftware.com/survey_persons/link"
+const baseUrl = "https://app.wehelpsoftware.com/survey_persons/link"
 
 type requiredFieldError struct {
 	message string
@@ -87,7 +87,7 @@ func base64Encode(input []byte) string {
 }
 
 func buildURL(value string) string {
-	return BASE_URL + value
+	return baseUrl + value
 }
 
 func computeHMAC(data, key []byte) []byte {
