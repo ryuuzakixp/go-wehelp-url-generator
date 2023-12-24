@@ -3,15 +3,15 @@
 Function to help generate valid url for surveys on Wehelp.
 
 ## Installation
-```shell
-go get github.com/ryuuzakixp/go-wehelp-url-generator/survey
+```bash
+$ go get github.com/ryuuzakixp/go-wehelp-url-generator/survey
 ```
 
 ## Usage
 
 Example minimum data required
 
-```go
+```Go
    
 package main
 
@@ -49,7 +49,7 @@ func main() {
 
 Example full data
 
-```go
+```Go
    
 package main
 
