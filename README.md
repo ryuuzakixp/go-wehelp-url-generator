@@ -1,6 +1,7 @@
 ## Description
 
 Function to help generate valid url for surveys on Wehelp.
+[![Go](https://github.com/ryuuzakixp/go-wehelp-url-generator/actions/workflows/test.yml/badge.svg)](https://github.com/ryuuzakixp/go-wehelp-url-generator/actions/workflows/test.yml)
 
 ## Installation
 ```bash
